@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@mui/material';
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button>Click Me</Button>
       </header>
     </div>
   );
